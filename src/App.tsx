@@ -43,7 +43,8 @@ function App() {
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               {[
-                { title: "We Pass GO Every 300 Holders", desc: "Community growth = motion. Every 300 new holders? Everyone moves forward. Volume cures everything.", image: "/NewAssets/1dolla.jpg" },
+                { title: "We Pass GO Every 300 Holders", desc: "Community growth = motion. Every 300 new holders? Everyone moves forward. Volume cures everything.", image: "https://raw.githubusercontent.com/Angelio-git/Memeopoly_V3/main/NewAssets/1dolla.jpg"
+ },
                 { title: "Supply Burns Every Lap", desc: "Make it around the board? Burn a chunk. Scarcity is the new rent.", image: "/NewAssets/5dolla.jpg" },
                 { title: "Paper Hands Pay Double Rent", desc: "Sell before the ATH? Pay the diamond hands tax.", image: "/NewAssets/10dolla.jpg" },
                 { title: "No Crying in the Casino", desc: "Wrecked? Good. Learn. Roll again.", image: "/NewAssets/20DolarsFR.png" },
