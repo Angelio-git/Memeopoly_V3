@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+.monopoly-text {
+  font-family: 'Anton', sans-serif;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  letter-spacing: 0.05em;
+}
+
+.nav-button {
+  @apply flex items-center px-4 py-2 text-white hover:bg-white/20 rounded-lg transition-colors duration-200 font-semibold;
+}
+
+.cta-button {
+  @apply flex items-center justify-center px-8 py-4 bg-[#4CAF50] text-white text-xl font-bold rounded-full 
+         hover:bg-[#45a049] transform hover:scale-105 transition-all duration-300 shadow-lg;
+}
+
+.monopoly-board {
+  @apply bg-[#125826] p-8 rounded-lg border-4 border-[#FFD700];
+}
+
+.monopoly-property {
+  @apply bg-[#0c3d1a] p-6 rounded-lg border-2 border-[#FFD700] hover:shadow-xl transition-all duration-300;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+.dollar-bill-container {
+  @apply w-full h-48 mb-4 flex items-center justify-center bg-white/5 rounded-lg overflow-hidden;
+}
+
+.dollar-bill-image {
+  @apply w-full h-full object-contain p-2;
+}
+
+.board-container {
+  @apply max-w-4xl mx-auto;
+}
